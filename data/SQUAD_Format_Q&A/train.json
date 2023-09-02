@@ -1,0 +1,904 @@
+{
+  "data": [
+    {
+      "title": "Amazon EC2",
+      "paragraphs": [
+        {
+          "context": "Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2 offers a wide selection of instance types optimized for various use cases. You can choose an Amazon Machine Image (AMI) and launch instances as needed.",
+          "qas": [
+            {
+              "question": "What is Amazon EC2?",
+              "id": "1",
+              "answers": [
+                {
+                  "text": "Amazon EC2 is a web service that provides resizable compute capacity in the cloud.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What can developers use Amazon EC2 for?",
+              "id": "2",
+              "answers": [
+                {
+                  "text": "Developers can use Amazon EC2 for web-scale cloud computing and launching instances as needed.",
+                  "answer_start": 66
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon S3",
+      "paragraphs": [
+        {
+          "context": "Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. It is designed to store and retrieve any amount of data from anywhere on the web. Amazon S3 is used for backup and restore, data archiving, content distribution, and data storage for websites and applications.",
+          "qas": [
+            {
+              "question": "What is Amazon S3 used for?",
+              "id": "3",
+              "answers": [
+                {
+                  "text": "Amazon S3 is used for backup, restore, data archiving, content distribution, and data storage for websites and applications.",
+                  "answer_start": 139
+                }
+              ]
+            },
+            {
+              "question": "What are the key features of Amazon S3?",
+              "id": "4",
+              "answers": [
+                {
+                  "text": "Amazon S3 offers scalability, data availability, security, and performance.",
+                  "answer_start": 57
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon RDS",
+      "paragraphs": [
+        {
+          "context": "Amazon Relational Database Service (Amazon RDS) is a managed database service that makes it easy to set up, operate, and scale a relational database in the cloud. It supports multiple database engines, including MySQL, PostgreSQL, and SQL Server. Amazon RDS handles routine database tasks such as provisioning, patching, backup, recovery, and scaling.",
+          "qas": [
+            {
+              "question": "What is Amazon RDS?",
+              "id": "5",
+              "answers": [
+                {
+                  "text": "Amazon RDS is a managed database service for setting up, operating, and scaling relational databases in the cloud.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "Which database engines are supported by Amazon RDS?",
+              "id": "6",
+              "answers": [
+                {
+                  "text": "Amazon RDS supports multiple database engines, including MySQL, PostgreSQL, and SQL Server.",
+                  "answer_start": 91
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Lambda",
+      "paragraphs": [
+        {
+          "context": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. You can use Lambda to build serverless applications, automate tasks, and respond to events. Lambda functions can be triggered by various AWS services, such as Amazon S3, Amazon DynamoDB, and Amazon API Gateway.",
+          "qas": [
+            {
+              "question": "What is AWS Lambda used for?",
+              "id": "7",
+              "answers": [
+                {
+                  "text": "AWS Lambda is used for running code without the need to provision or manage servers, making it ideal for building serverless applications and automating tasks.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What can trigger AWS Lambda functions?",
+              "id": "8",
+              "answers": [
+                {
+                  "text": "AWS Lambda functions can be triggered by various AWS services, including Amazon S3, Amazon DynamoDB, and Amazon API Gateway.",
+                  "answer_start": 120
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon VPC",
+      "paragraphs": [
+        {
+          "context": "Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources into a virtual network. You have complete control over your virtual networking environment, including IP address range selection, subnet creation, and route table configuration.",
+          "qas": [
+            {
+              "question": "What is Amazon VPC?",
+              "id": "9",
+              "answers": [
+                {
+                  "text": "Amazon VPC is a service that allows you to create a logically isolated section of the AWS Cloud for launching resources into a virtual network.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What control do you have over your Amazon VPC?",
+              "id": "10",
+              "answers": [
+                {
+                  "text": "You have control over IP address range selection, subnet creation, and route table configuration within your Amazon VPC.",
+                  "answer_start": 133
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon RDS",
+      "paragraphs": [
+        {
+          "context": "Amazon Relational Database Service (Amazon RDS) is a managed database service that makes it easy to set up, operate, and scale a relational database in the cloud. It supports multiple database engines, including MySQL, PostgreSQL, and SQL Server. Amazon RDS handles routine database tasks such as provisioning, patching, backup, recovery, and scaling.",
+          "qas": [
+            {
+              "question": "What is Amazon RDS?",
+              "id": "11",
+              "answers": [
+                {
+                  "text": "Amazon RDS is a managed database service for setting up, operating, and scaling relational databases in the cloud.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "Which database engines are supported by Amazon RDS?",
+              "id": "12",
+              "answers": [
+                {
+                  "text": "Amazon RDS supports multiple database engines, including MySQL, PostgreSQL, and SQL Server.",
+                  "answer_start": 91
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Lambda",
+      "paragraphs": [
+        {
+          "context": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. You can use Lambda to build serverless applications, automate tasks, and respond to events. Lambda functions can be triggered by various AWS services, such as Amazon S3, Amazon DynamoDB, and Amazon API Gateway.",
+          "qas": [
+            {
+              "question": "What is AWS Lambda used for?",
+              "id": "13",
+              "answers": [
+                {
+                  "text": "AWS Lambda is used for running code without the need to provision or manage servers, making it ideal for building serverless applications and automating tasks.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What can trigger AWS Lambda functions?",
+              "id": "14",
+              "answers": [
+                {
+                  "text": "AWS Lambda functions can be triggered by various AWS services, including Amazon S3, Amazon DynamoDB, and Amazon API Gateway.",
+                  "answer_start": 120
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon VPC",
+      "paragraphs": [
+        {
+          "context": "Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources into a virtual network. You have complete control over your virtual networking environment, including IP address range selection, subnet creation, and route table configuration.",
+          "qas": [
+            {
+              "question": "What is Amazon VPC?",
+              "id": "15",
+              "answers": [
+                {
+                  "text": "Amazon VPC is a service that allows you to create a logically isolated section of the AWS Cloud for launching resources into a virtual network.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What control do you have over your Amazon VPC?",
+              "id": "16",
+              "answers": [
+                {
+                  "text": "You have control over IP address range selection, subnet creation, and route table configuration within your Amazon VPC.",
+                  "answer_start": 133
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon Redshift",
+      "paragraphs": [
+        {
+          "context": "Amazon Redshift is a fully managed data warehouse service in the cloud. It allows you to run complex analytic queries on large datasets and offers high-performance, scalability, and ease of use. Redshift is used for business intelligence, data warehousing, and data analysis.",
+          "qas": [
+            {
+              "question": "What is Amazon Redshift?",
+              "id": "17",
+              "answers": [
+                {
+                  "text": "Amazon Redshift is a fully managed data warehouse service in the cloud, designed for running complex analytic queries on large datasets.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What are the primary use cases for Amazon Redshift?",
+              "id": "18",
+              "answers": [
+                {
+                  "text": "Amazon Redshift is used for business intelligence, data warehousing, and data analysis.",
+                  "answer_start": 113
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon Route 53",
+      "paragraphs": [
+        {
+          "context": "Amazon Route 53 is a scalable and highly available domain name system (DNS) web service. It is designed to route end-user requests to endpoints such as web applications, load balancers, and AWS resources. Route 53 provides domain registration and DNS health checking.",
+          "qas": [
+            {
+              "question": "What is Amazon Route 53 used for?",
+              "id": "19",
+              "answers": [
+                {
+                  "text": "Amazon Route 53 is used for routing end-user requests to endpoints, domain registration, and DNS health checking.",
+                  "answer_start": 143
+                }
+              ]
+            },
+            {
+              "question": "What types of endpoints can be configured with Route 53?",
+              "id": "20",
+              "answers": [
+                {
+                  "text": "Route 53 can be configured to route requests to web applications, load balancers, and various AWS resources.",
+                  "answer_start": 65
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Glue",
+      "paragraphs": [
+        {
+          "context": "AWS Glue is a fully managed extract, transform, and load (ETL) service that makes it easy to prepare and load data for analytics. It supports data integration from various sources and automatically generates ETL code to transform and move data. AWS Glue is often used for data warehousing and data lake scenarios.",
+          "qas": [
+            {
+              "question": "What is AWS Glue?",
+              "id": "41",
+              "answers": [
+                {
+                  "text": "AWS Glue is a fully managed ETL service for preparing and loading data from various sources into analytics platforms.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What does AWS Glue automate?",
+              "id": "42",
+              "answers": [
+                {
+                  "text": "AWS Glue automates the generation of ETL code to transform and move data for analytics purposes.",
+                  "answer_start": 79
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon SageMaker",
+      "paragraphs": [
+        {
+          "context": "Amazon SageMaker is a fully managed service that provides tools for building, training, and deploying machine learning models. It offers a complete set of machine learning algorithms, integrated development environments, and infrastructure to accelerate the machine learning workflow.",
+          "qas": [
+            {
+              "question": "What is Amazon SageMaker used for?",
+              "id": "43",
+              "answers": [
+                {
+                  "text": "Amazon SageMaker is used for building, training, and deploying machine learning models with a wide range of tools and infrastructure.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What does SageMaker provide to accelerate machine learning workflows?",
+              "id": "44",
+              "answers": [
+                {
+                  "text": "SageMaker provides a complete set of machine learning algorithms, integrated development environments, and infrastructure to speed up the machine learning workflow.",
+                  "answer_start": 86
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Key Management Service (KMS)",
+      "paragraphs": [
+        {
+          "context": "AWS Key Management Service (KMS) is a fully managed encryption service that helps you create and control encryption keys for your applications and workloads. It integrates with various AWS services to provide encryption and decryption capabilities.",
+          "qas": [
+            {
+              "question": "What is AWS KMS used for?",
+              "id": "45",
+              "answers": [
+                {
+                  "text": "AWS KMS is used for creating and managing encryption keys to secure data and integrate encryption into applications and workloads.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "Which AWS services does KMS integrate with?",
+              "id": "46",
+              "answers": [
+                {
+                  "text": "AWS KMS integrates with various AWS services to provide encryption and decryption capabilities, ensuring data security.",
+                  "answer_start": 96
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Elastic Load Balancing",
+      "paragraphs": [
+        {
+          "context": "AWS Elastic Load Balancing (ELB) is a service that automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances or containers. ELB improves the availability and fault tolerance of your applications.",
+          "qas": [
+            {
+              "question": "What is AWS Elastic Load Balancing?",
+              "id": "47",
+              "answers": [
+                {
+                  "text": "AWS Elastic Load Balancing is a service for distributing incoming application traffic across multiple targets to enhance application availability and fault tolerance.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What are the types of load balancers provided by AWS ELB?",
+              "id": "48",
+              "answers": [
+                {
+                  "text": "AWS ELB provides three types of load balancers: Application Load Balancer, Network Load Balancer, and Classic Load Balancer.",
+                  "answer_start": 67
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Step Functions",
+      "paragraphs": [
+        {
+          "context": "AWS Step Functions is a serverless orchestration service that allows you to coordinate and sequence AWS services and functions into serverless workflows. It simplifies workflow automation and monitoring.",
+          "qas": [
+            {
+              "question": "What is AWS Step Functions?",
+              "id": "49",
+              "answers": [
+                {
+                  "text": "AWS Step Functions is a serverless orchestration service for coordinating AWS services and functions into serverless workflows.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What does Step Functions simplify?",
+              "id": "50",
+              "answers": [
+                {
+                  "text": "AWS Step Functions simplifies workflow automation and monitoring by providing a visual interface for building serverless workflows.",
+                  "answer_start": 80
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Direct Connect",
+      "paragraphs": [
+        {
+          "context": "AWS Direct Connect is a network service that provides dedicated network connections from your on-premises data centers to AWS. It offers reliable, high-bandwidth connectivity for applications and workloads that require low-latency access to AWS resources.",
+          "qas": [
+            {
+              "question": "What is AWS Direct Connect?",
+              "id": "51",
+              "answers": [
+                {
+                  "text": "AWS Direct Connect is a network service that offers dedicated, high-bandwidth connections from on-premises data centers to AWS for low-latency access to AWS resources.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What type of connectivity does Direct Connect provide?",
+              "id": "52",
+              "answers": [
+                {
+                  "text": "Direct Connect provides reliable, low-latency connectivity between on-premises data centers and AWS resources.",
+                  "answer_start": 98
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon ECR",
+      "paragraphs": [
+        {
+          "context": "Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry service that makes it easy to store, manage, and deploy Docker container images. ECR integrates with other AWS services such as Amazon ECS and Kubernetes.",
+          "qas": [
+            {
+              "question": "What is Amazon ECR used for?",
+              "id": "53",
+              "answers": [
+                {
+                  "text": "Amazon ECR is used for storing, managing, and deploying Docker container images, making it easier to work with containers in AWS.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "Which AWS services does ECR integrate with?",
+              "id": "54",
+              "answers": [
+                {
+                  "text": "Amazon ECR integrates with AWS services like Amazon ECS and Kubernetes for container orchestration and management.",
+                  "answer_start": 82
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon CloudFront",
+      "paragraphs": [
+        {
+          "context": "Amazon CloudFront is a content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency and high transfer speeds. CloudFront uses a global network of edge locations for caching and content delivery.",
+          "qas": [
+            {
+              "question": "What is Amazon CloudFront used for?",
+              "id": "55",
+              "answers": [
+                {
+                  "text": "Amazon CloudFront is used for securely delivering content, videos, applications, and APIs to customers worldwide with low latency and high transfer speeds.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "How does CloudFront optimize content delivery?",
+              "id": "56",
+              "answers": [
+                {
+                  "text": "CloudFront uses a global network of edge locations for caching and delivering content, optimizing performance for end-users.",
+                  "answer_start": 78
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon DocumentDB",
+      "paragraphs": [
+        {
+          "context": "Amazon DocumentDB is a fully managed NoSQL database service that is compatible with MongoDB. It offers high availability, scalability, and security for document-oriented databases. DocumentDB is often used for applications that require a flexible and scalable database solution.",
+          "qas": [
+            {
+              "question": "What is Amazon DocumentDB?",
+              "id": "57",
+              "answers": [
+                {
+                  "text": "Amazon DocumentDB is a fully managed NoSQL database service compatible with MongoDB, designed for high availability and scalability of document-oriented databases.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What are some key features of DocumentDB?",
+              "id": "58",
+              "answers": [
+                {
+                  "text": "Amazon DocumentDB offers high availability, scalability, and security for document-oriented databases, making it suitable for flexible and scalable database solutions.",
+                  "answer_start": 101
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Lambda",
+      "paragraphs": [
+        {
+          "context": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. You can use Lambda to build serverless applications, automate tasks, and respond to events. Lambda functions can be triggered by various AWS services, such as Amazon S3, Amazon DynamoDB, and Amazon API Gateway.",
+          "qas": [
+            {
+              "question": "What is AWS Lambda used for?",
+              "id": "59",
+              "answers": [
+                {
+                  "text": "AWS Lambda is used for running code without the need to provision or manage servers, making it ideal for building serverless applications and automating tasks.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What can trigger AWS Lambda functions?",
+              "id": "60",
+              "answers": [
+                {
+                  "text": "AWS Lambda functions can be triggered by various AWS services, including Amazon S3, Amazon DynamoDB, and Amazon API Gateway.",
+                  "answer_start": 120
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon S3",
+      "paragraphs": [
+        {
+          "context": "Amazon Simple Storage Service (Amazon S3) is a scalable object storage service that allows you to store and retrieve data, including images, videos, and backups. It provides high availability, durability, and low-latency access to stored objects.",
+          "qas": [
+            {
+              "question": "What is Amazon S3?",
+              "id": "61",
+              "answers": [
+                {
+                  "text": "Amazon S3 is a scalable object storage service used for storing and retrieving data, including images, videos, and backups, with high availability and durability.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What type of data is commonly stored in Amazon S3?",
+              "id": "62",
+              "answers": [
+                {
+                  "text": "Amazon S3 commonly stores data such as images, videos, backups, and other types of objects.",
+                  "answer_start": 63
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Lambda",
+      "paragraphs": [
+        {
+          "context": "AWS Lambda is a serverless compute service that lets you run code without provisioning or managing servers. You can use Lambda to build serverless applications, automate tasks, and respond to events. Lambda functions can be triggered by various AWS services, such as Amazon S3, Amazon DynamoDB, and Amazon API Gateway.",
+          "qas": [
+            {
+              "question": "What is AWS Lambda used for?",
+              "id": "63",
+              "answers": [
+                {
+                  "text": "AWS Lambda is used for running code without the need to provision or manage servers, making it ideal for building serverless applications and automating tasks.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "How can AWS Lambda functions be triggered?",
+              "id": "64",
+              "answers": [
+                {
+                  "text": "AWS Lambda functions can be triggered by various AWS services, including Amazon S3, Amazon DynamoDB, and Amazon API Gateway.",
+                  "answer_start": 120
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon RDS",
+      "paragraphs": [
+        {
+          "context": "Amazon Relational Database Service (Amazon RDS) is a managed database service that supports multiple database engines such as MySQL, PostgreSQL, and SQL Server. It automates database management tasks like patching, backups, and scaling.",
+          "qas": [
+            {
+              "question": "What is Amazon RDS?",
+              "id": "65",
+              "answers": [
+                {
+                  "text": "Amazon RDS is a managed database service that supports multiple database engines and automates tasks like patching, backups, and scaling.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "Which database engines are supported by Amazon RDS?",
+              "id": "66",
+              "answers": [
+                {
+                  "text": "Amazon RDS supports database engines such as MySQL, PostgreSQL, SQL Server, and others.",
+                  "answer_start": 69
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon ECS",
+      "paragraphs": [
+        {
+          "context": "Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that makes it easy to run, stop, and manage Docker containers. ECS integrates with other AWS services for containerized application deployment.",
+          "qas": [
+            {
+              "question": "What is Amazon ECS?",
+              "id": "67",
+              "answers": [
+                {
+                  "text": "Amazon ECS is a fully managed container orchestration service used for running, stopping, and managing Docker containers with seamless integration into AWS services.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "How does Amazon ECS simplify container management?",
+              "id": "68",
+              "answers": [
+                {
+                  "text": "Amazon ECS simplifies container management by providing a fully managed service that integrates with other AWS services for container deployment.",
+                  "answer_start": 96
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon SNS",
+      "paragraphs": [
+        {
+          "context": "Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service that allows you to send messages and notifications to distributed systems, microservices, and serverless applications. SNS supports multiple messaging protocols and integrates with other AWS services.",
+          "qas": [
+            {
+              "question": "What is Amazon SNS used for?",
+              "id": "69",
+              "answers": [
+                {
+                  "text": "Amazon SNS is used for sending messages and notifications to distributed systems, microservices, and serverless applications.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What does Amazon SNS integrate with?",
+              "id": "70",
+              "answers": [
+                {
+                  "text": "Amazon SNS integrates with other AWS services and supports multiple messaging protocols.",
+                  "answer_start": 93
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Elastic Beanstalk",
+      "paragraphs": [
+        {
+          "context": "AWS Elastic Beanstalk is a Platform as a Service (PaaS) that simplifies the deployment and management of applications. You can easily deploy web applications and services using various programming languages, frameworks, and application servers. Elastic Beanstalk handles infrastructure provisioning and scaling for you.",
+          "qas": [
+            {
+              "question": "What is AWS Elastic Beanstalk?",
+              "id": "71",
+              "answers": [
+                {
+                  "text": "AWS Elastic Beanstalk is a Platform as a Service (PaaS) that simplifies application deployment and management by handling infrastructure provisioning and scaling.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What does Elastic Beanstalk handle for developers?",
+              "id": "72",
+              "answers": [
+                {
+                  "text": "Elastic Beanstalk handles infrastructure provisioning and scaling, allowing developers to focus on coding and deploying applications.",
+                  "answer_start": 89
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon Redshift",
+      "paragraphs": [
+        {
+          "context": "Amazon Redshift is a fully managed data warehouse service in the cloud. It allows you to run complex analytic queries on large datasets and offers high-performance, scalability, and ease of use. Redshift is used for business intelligence, data warehousing, and data analysis.",
+          "qas": [
+            {
+              "question": "What is Amazon Redshift?",
+              "id": "73",
+              "answers": [
+                {
+                  "text": "Amazon Redshift is a fully managed cloud-based data warehouse service designed for running complex analytic queries on large datasets.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What are some common use cases for Amazon Redshift?",
+              "id": "74",
+              "answers": [
+                {
+                  "text": "Amazon Redshift is commonly used for business intelligence, data warehousing, and data analysis due to its high-performance and scalability.",
+                  "answer_start": 98
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AWS Fargate",
+      "paragraphs": [
+        {
+          "context": "AWS Fargate is a serverless compute engine for containers. It allows you to run containers without managing the underlying infrastructure. Fargate is integrated with Amazon ECS and Amazon EKS for container orchestration.",
+          "qas": [
+            {
+              "question": "What is AWS Fargate?",
+              "id": "75",
+              "answers": [
+                {
+                  "text": "AWS Fargate is a serverless compute engine designed for running containers without the need to manage the underlying infrastructure.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "Which container orchestration services does Fargate integrate with?",
+              "id": "76",
+              "answers": [
+                {
+                  "text": "AWS Fargate integrates with Amazon ECS and Amazon EKS for container orchestration.",
+                  "answer_start": 91
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon Neptune",
+      "paragraphs": [
+        {
+          "context": "Amazon Neptune is a fully managed graph database service that is optimized for storing and querying highly connected data. It supports both the Gremlin and SPARQL query languages and is used for applications that require graph database capabilities.",
+          "qas": [
+            {
+              "question": "What is Amazon Neptune?",
+              "id": "77",
+              "answers": [
+                {
+                  "text": "Amazon Neptune is a fully managed graph database service designed for storing and querying highly connected data, supporting both Gremlin and SPARQL query languages.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "When is Amazon Neptune commonly used?",
+              "id": "78",
+              "answers": [
+                {
+                  "text": "Amazon Neptune is commonly used for applications that require graph database capabilities to manage highly connected data.",
+                  "answer_start": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Amazon Elastic File System (EFS)",
+      "paragraphs": [
+        {
+          "context": "Amazon Elastic File System (EFS) is a fully managed file storage service that can be easily shared across multiple Amazon EC2 instances. It is designed to provide scalable and durable file storage for applications and workloads that require shared access to files.",
+          "qas": [
+            {
+              "question": "What is Amazon EFS?",
+              "id": "79",
+              "answers": [
+                {
+                  "text": "Amazon Elastic File System (EFS) is a fully managed file storage service designed for scalable and shared file storage across multiple Amazon EC2 instances.",
+                  "answer_start": 0
+                }
+              ]
+            },
+            {
+              "question": "What kind of workloads can benefit from Amazon EFS?",
+              "id": "80",
+              "answers": [
+                {
+                  "text": "Amazon EFS is suitable for applications and workloads that require shared access to files and scalable, durable file storage.",
+                  "answer_start": 107
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+    "data": [
+      {
+        "title": "Amazon EKS",
+        "paragraphs": [
+          {
+            "context": "Amazon Elastic Kubernetes Service (Amazon EKS) is a managed Kubernetes service that simplifies the deployment, management, and scaling of containerized applications using Kubernetes. EKS eliminates the need to install and operate your Kubernetes clusters, making it easier to run containerized workloads on AWS.",
+            "qas": [
+              {
+                "question": "What is Amazon EKS?",
+                "id": "21",
+                "answers": [
+                  {
+                    "text": "Amazon EKS is a managed Kubernetes service for deploying and managing containerized applications using Kubernetes on AWS.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "What problem does Amazon EKS solve?",
+                "id": "22",
+                "answers": [
+                  {
+                    "text": "Amazon EKS eliminates the need to install and operate Kubernetes clusters, simplifying the deployment and management of containerized workloads on AWS.",
+                    "answer_start": 64
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Amazon DynamoDB",
+        "paragraphs": [
+          {
+            "context": "Amazon DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability. It is designed for applications that need consistent, single-digit millisecond latency at any scale. DynamoDB supports both document and key-value data models.",
+            "qas": [
+              {
+                "question": "What is Amazon DynamoDB?",
+                "id": "23",
+                "answers": [
+                  {
+                    "text": "Amazon DynamoDB is a fully managed NoSQL database service with fast and predictable performance, designed for applications requiring low-latency access to data at any scale.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "What data models does DynamoDB support?",
+                "id": "24",
+                "answers": [
+                  {
+                    "text": "DynamoDB supports both document and key-value data models.",
+                    "answer_start": 105
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "AWS Identity and Access Management (IAM)",
+        "paragraphs": [
+          {
+            "context": "AWS Identity and Access Management (IAM) is a service that helps you securely control access to AWS resources. With IAM, you can create and manage users, groups, and roles to control who can access and perform actions on your AWS resources. IAM allows you to set fine-grained permissions and policies.",
+            "qas": [
+              {
+                "question": "What is AWS IAM?",
+                "id": "25",
+                "answers": [
+                  {
+                    "text": "AWS Identity and Access Management (IAM) is a service for securely controlling access to AWS resources by creating and managing users, groups, and roles with fine-grained permissions.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "What can you control with AWS IAM?",
+                "id": "26",
+                "answers": [
+                  {
+                    "text": "With AWS IAM, you can control access to AWS resources and specify what actions users, groups, and roles can perform on those resources.",
+                    "answer_start": 105
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Amazon CloudWatch",
+        "paragraphs": [
+          {
+            "context": "Amazon CloudWatch is a monitoring and observability service that provides data and insights to monitor applications, understand system performance, and optimize resource utilization. CloudWatch collects and tracks metrics, collects and monitors log files, and sets alarms.",
+            "qas": [
+              {
+                "question": "What is Amazon CloudWatch?",
+                "id": "27",
+                "answers": [
+                  {
+                    "text": "Amazon CloudWatch is a monitoring and observability service that collects metrics, logs, and provides insights to monitor applications and system performance on AWS.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "What types of data does CloudWatch collect?",
+                "id": "28",
+                "answers": [
+                  {
+                    "text": "CloudWatch collects metrics, logs, and other data to monitor applications and system performance.",
+                    "answer_start": 69
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Amazon SNS",
+        "paragraphs": [
+          {
+            "context": "Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service that allows you to send messages and notifications to distributed systems, microservices, and serverless applications. SNS supports multiple messaging protocols and integrates with other AWS services.",
+            "qas": [
+              {
+                "question": "What is Amazon SNS used for?",
+                "id": "29",
+                "answers": [
+                  {
+                    "text": "Amazon SNS is used for sending messages and notifications to distributed systems, microservices, and serverless applications.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "What does Amazon SNS integrate with?",
+                "id": "30",
+                "answers": [
+                  {
+                    "text": "Amazon SNS integrates with other AWS services and supports multiple messaging protocols.",
+                    "answer_start": 93
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "AWS Elastic Beanstalk",
+        "paragraphs": [
+          {
+            "context": "AWS Elastic Beanstalk is a Platform as a Service (PaaS) that simplifies the deployment and management of applications. You can easily deploy web applications and services using various programming languages, frameworks, and application servers. Elastic Beanstalk handles infrastructure provisioning and scaling for you.",
+            "qas": [
+              {
+                "question": "What is AWS Elastic Beanstalk?",
+                "id": "31",
+                "answers": [
+                  {
+                    "text": "AWS Elastic Beanstalk is a Platform as a Service (PaaS) that simplifies application deployment and management by handling infrastructure provisioning and scaling.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "What does Elastic Beanstalk handle for developers?",
+                "id": "32",
+                "answers": [
+                  {
+                    "text": "Elastic Beanstalk handles infrastructure provisioning and scaling, allowing developers to focus on coding and deploying applications.",
+                    "answer_start": 89
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "AWS CloudFormation",
+        "paragraphs": [
+          {
+            "context": "AWS CloudFormation is a service that allows you to define and provision AWS infrastructure as code. You can use CloudFormation templates to declare the resources and their configurations in a JSON or YAML file. CloudFormation automates the creation and management of resources.",
+            "qas": [
+              {
+                "question": "What is AWS CloudFormation?",
+                "id": "33",
+                "answers": [
+                  {
+                    "text": "AWS CloudFormation is a service that enables you to define and provision AWS infrastructure using code templates, automating resource creation and management.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "What file formats are commonly used with CloudFormation?",
+                "id": "34",
+                "answers": [
+                  {
+                    "text": "CloudFormation templates are commonly written in JSON or YAML file formats to declare AWS resource configurations.",
+                    "answer_start": 120
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Amazon Kinesis",
+        "paragraphs": [
+          {
+            "context": "Amazon Kinesis is a platform for streaming data on AWS. It allows you to collect, process, and analyze real-time data streams from various sources such as IoT devices, web applications, and more. Kinesis offers services like Kinesis Data Streams, Kinesis Data Firehose, and Kinesis Data Analytics.",
+            "qas": [
+              {
+                "question": "What is Amazon Kinesis used for?",
+                "id": "35",
+                "answers": [
+                  {
+                    "text": "Amazon Kinesis is used for collecting, processing, and analyzing real-time data streams from various sources, including IoT devices and web applications.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "What are some services provided by Amazon Kinesis?",
+                "id": "36",
+                "answers": [
+                  {
+                    "text": "Amazon Kinesis offers services like Kinesis Data Streams, Kinesis Data Firehose, and Kinesis Data Analytics for managing real-time data streams.",
+                    "answer_start": 111
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Amazon Aurora",
+        "paragraphs": [
+          {
+            "context": "Amazon Aurora is a fully managed, MySQL and PostgreSQL-compatible relational database engine. It combines the performance and availability of high-end commercial databases with the simplicity and cost-effectiveness of open-source databases. Aurora is designed for applications that require high performance and availability.",
+            "qas": [
+              {
+                "question": "What is Amazon Aurora?",
+                "id": "37",
+                "answers": [
+                  {
+                    "text": "Amazon Aurora is a fully managed relational database engine compatible with MySQL and PostgreSQL, known for its high performance and availability.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "Which database engines is Amazon Aurora compatible with?",
+                "id": "38",
+                "answers": [
+                  {
+                    "text": "Amazon Aurora is compatible with MySQL and PostgreSQL.",
+                    "answer_start": 64
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Amazon Elastic File System (EFS)",
+        "paragraphs": [
+          {
+            "context": "Amazon Elastic File System (EFS) is a fully managed file storage service that can be easily shared across multiple Amazon EC2 instances. It is designed to provide scalable and durable file storage for applications and workloads that require shared access to files.",
+            "qas": [
+              {
+                "question": "What is Amazon EFS?",
+                "id": "39",
+                "answers": [
+                  {
+                    "text": "Amazon Elastic File System (EFS) is a fully managed file storage service designed for scalable and shared file storage across multiple Amazon EC2 instances.",
+                    "answer_start": 0
+                  }
+                ]
+              },
+              {
+                "question": "What kind of workloads can benefit from Amazon EFS?",
+                "id": "40",
+                "answers": [
+                  {
+                    "text": "Amazon EFS is suitable for applications and workloads that require shared access to files and scalable, durable file storage.",
+                    "answer_start": 107
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
